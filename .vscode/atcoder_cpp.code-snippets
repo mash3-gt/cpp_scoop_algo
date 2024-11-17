@@ -21,16 +21,22 @@
 			"#include <bits/stdc++.h>",
 			"using namespace std;",
 			"",
-			"int main()",
-			"{",
-			"}"
+			"int main(){",
+			"int n;",
+			"cin >> n ;",
+			"cout << n << endl;",
+			"return 0;}"
 		],
 		"description": ""
 	},
 	"type": {
 		"prefix": "type",
 		"body": [
-			"int,string,bool",
+			"int",
+			"bool",
+			"string",
+			"char",
+			"vector<int> mem(4, 0); // [0,0,0,0]"
 		],
 		"description": ""
 	},
@@ -41,5 +47,20 @@
 			"cmap[i]++"
 		],
 		"description": ""
+	},
+	"sort_cheat": {
+		"prefix": "sort_cheat",
+		"body": [
+			"string s = hoge",
+			"sort(s.begin(),s.end())"
+		]
+	},
+	"while_cheat": {
+		"prefix": "while_cheat",
+		"body": [
+			"while (n > 0){",
+			"    n /= 10;",
+			"}"
+		]
 	}
 }
