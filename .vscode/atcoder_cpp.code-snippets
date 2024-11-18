@@ -51,8 +51,9 @@
 	"sort_cheat": {
 		"prefix": "sort_cheat",
 		"body": [
-			"string s = hoge",
-			"sort(s.begin(),s.end())"
+			"string s = hoge;",
+			"sort(s.begin(),s.end()); //昇順",
+			"sort(S.begin(), S.end(), greater<char>()); //降順"
 		]
 	},
 	"while_cheat": {
@@ -61,6 +62,12 @@
 			"while (n > 0){",
 			"    n /= 10;",
 			"}"
+		]
+	},
+	"find_cheat": {
+		"prefix": "find_cheat",
+		"body": [
+			"s.find('A') != string::npos // Aを含まないとき"
 		]
 	}
 }
